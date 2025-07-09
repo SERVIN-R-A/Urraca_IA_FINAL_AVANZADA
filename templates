@@ -1,0 +1,7 @@
+Urraca_IA_FINAL_AVANZADA/
+├── main.py
+├── requirements.txt
+├── utils.py
+├── ...
+└── templates/     
+    └── index.html    
