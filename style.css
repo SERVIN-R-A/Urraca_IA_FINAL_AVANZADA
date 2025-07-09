@@ -1,7 +1,46 @@
 body {
-  background-color: #3c1361;
+  background: linear-gradient(to right, #3c1361, #6a0dad);
   font-family: Arial, sans-serif;
   color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
   text-align: center;
-  padding: 60px;
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  width: 90%;
+  max-width: 500px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 70%;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #ff4de2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
 }

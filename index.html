@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Urraca IA</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2721/2721306.png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
-  <h1>¡Bienvenido a Urraca IA!</h1>
-  <p>Tu asistente está listo para ayudarte.</p>
+  <div class="container">
+    <h1>🤖 Bienvenido a Urraca IA</h1>
+    <p>Tu asistente inteligente conectado a internet.</p>
+    <form action="/mensaje" method="post">
+      <input type="text" name="mensaje" placeholder="Escribe tu mensaje..." />
+      <button type="submit">Enviar</button>
+    </form>
+    <footer>
+      <p>Desarrollado por <strong>SERVIN</strong> · <a href="mailto:antonioservinrodriguez666@gmail.com">Contacto</a></p>
+    </footer>
+  </div>
 </body>
 </html>
