@@ -1,0 +1,94 @@
+/* Fondo púrpura con degradado */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #6a0dad, #301934);
+  color: white;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Barra lateral izquierda */
+.sidebar {
+  width: 220px;
+  background: #1e0537;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+  flex-shrink: 0;
+}
+
+.sidebar h2 {
+  text-align: center;
+  color: #ff4de2;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background: #472161;
+}
+
+/* Contenido principal */
+.main {
+  flex-grow: 1;
+  padding: 40px;
+}
+
+.main h1 {
+  font-size: 36px;
+  color: #ff8af0;
+}
+
+.main p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Formulario de consulta */
+form {
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4de2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #d340c0;
+}
